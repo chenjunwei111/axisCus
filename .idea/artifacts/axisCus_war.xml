@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="axisCus:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>axisCus</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="axisCus.war">
+      <element id="artifact" artifact-name="axisCus:war exploded" />
+    </root>
+  </artifact>
+</component>
