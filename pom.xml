@@ -26,7 +26,7 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    
+      <!--axis1.4 客户端-->
          <dependency>
             <groupId>axis</groupId>
             <artifactId>axis</artifactId>
@@ -42,7 +42,34 @@
             <artifactId>mail</artifactId>
             <version>1.4.7</version>
         </dependency>
-    
+      <!--axis1.4 客户端-->
+
+
+      <!--axis2 客户端-->
+      <dependency>
+          <groupId>org.apache.axis2</groupId>
+          <artifactId>axis2-adb</artifactId>
+          <version>1.6.2</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.axis2</groupId>
+          <artifactId>axis2-kernel</artifactId>
+          <version>1.6.2</version>
+      </dependency>
+      <dependency>
+          <groupId>org.apache.axis2</groupId>
+          <artifactId>axis2-transport-local</artifactId>
+          <version>1.6.2</version>
+      </dependency>
+
+      <dependency>
+          <groupId>org.apache.axis2</groupId>
+          <artifactId>axis2-transport-http</artifactId>
+          <version>1.6.2</version>
+      </dependency>
+      <!--axis2 客户端-->
+
+
   </dependencies>
 
   <build>
